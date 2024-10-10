@@ -51,7 +51,7 @@ export default function DeveloperHero() {
   };
 
   return (
-    <div className="relative min-h-screen bg-[#1F1F2A] text-white overflow-hidden flex items-center">
+    <div className="relative py-5 bg-[#1F1F2A] text-white overflow-hidden flex items-center">
       {/* Animated background elements */}
       <motion.div 
         className="absolute inset-0"

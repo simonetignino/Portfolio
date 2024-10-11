@@ -54,7 +54,7 @@ export default function Spinner({ progress, value }) {
                     transition={{ delay: 0.5, type: "spring", stiffness: 200, damping: 10 }}
                 >
                     <motion.span 
-                        className="text-[10px] text-[grey]"
+                        className="text-[10px] text-slate-300"
                         initial={{ opacity: 0 }}
                         animate={{ opacity: 1 }}
                         transition={{ delay: 1 }}

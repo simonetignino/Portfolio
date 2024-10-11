@@ -46,34 +46,6 @@ export default function SimpleCard({ title, desc }) {
           <span>{desc}</span>
         </motion.div>
       </div>
-      <motion.div 
-        className="redirect text-[#f6c443] sm:ml-4 ml-2"
-        variants={item}
-      >
-        <motion.span 
-          className="text-[12px] underline flex"
-          whileHover={{ x: 5 }}
-          transition={{ duration: 0.3 }}
-        >
-          Richiedi Preventivo
-          <motion.svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            strokeWidth="1.5"
-            stroke="currentColor"
-            className="size-5 ml-2"
-            whileHover={{ x: 5 }}
-            transition={{ duration: 0.3 }}
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              d="m8.25 4.5 7.5 7.5-7.5 7.5"
-            />
-          </motion.svg>
-        </motion.span>
-      </motion.div>
     </motion.div>
   );
 }

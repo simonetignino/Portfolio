@@ -1,8 +1,13 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Code, Laptop, Server, Database } from 'lucide-react';
+import ContactMe from './Modals/ContactMe';
+import Projects from './Modals/Projects';
 
 export default function DeveloperHero() {
+  const [open, setOpen] = useState(false);
+  const [project, setProject] = useState(false);
+
   const container = {
     hidden: { opacity: 0 },
     show: {
@@ -127,19 +132,23 @@ export default function DeveloperHero() {
             className="flex flex-wrap gap-4"
             variants={item}
           >
-            <motion.button 
+            <motion.button
+              onClick={() => setProject(true)}
               className="px-8 py-3 bg-[#f6c443] text-[#1F1F2A] rounded-full font-semibold"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
               Visualizza progetti
+              {project && <Projects project={project} setProject={setProject}/>}
             </motion.button>
             <motion.button 
+              onClick={() => setOpen(true)}
               className="px-8 py-3 border-2 border-[#f6c443] text-[#f6c443] rounded-full font-semibold"
               whileHover={{ backgroundColor: '#f6c443', color: '#1F1F2A' }}
               whileTap={{ scale: 0.95 }}
             >
               Contattami
+              {open && <ContactMe open={open} setOpen={setOpen}/>}
             </motion.button>
           </motion.div>
         </motion.div>

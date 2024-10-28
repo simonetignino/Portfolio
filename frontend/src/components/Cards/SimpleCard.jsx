@@ -32,7 +32,7 @@ const SimpleCard = ({ title, desc, price }) => {
       animate="show"
       className="flex justify-center"
     >
-      <div className="card w-72 sm:w-80 h-56 sm:max-h-48 my-2 sm:my-4 bg-[#2C2C36] relative rounded-lg">
+      <div className="card w-80 sm:w-80 h-56 sm:max-h-48 my-2 sm:my-4 bg-[#2C2C36] relative rounded-lg">
         <div className="container-card p-4 flex flex-col items-center justify-center">
           <motion.div className="title text-[#f6c443] mb-3 font-bold sm:font-normal" variants={item}>
             <span>{title}</span>
@@ -44,7 +44,7 @@ const SimpleCard = ({ title, desc, price }) => {
             <span>{desc}</span>
           </motion.div>
           <motion.div
-            className="description text-[#f6c443] text-[14px] sm:mt-10 mt-16 md:mt-5 font-bold sm:font-normal"
+            className="description text-[#f6c443] text-[14px] sm:mt-10 mt-16 md:mt-10 font-bold sm:font-normal"
             variants={item}
           >
             <span>{price}</span>

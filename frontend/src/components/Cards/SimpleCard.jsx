@@ -44,7 +44,7 @@ const SimpleCard = ({ title, desc, price }) => {
             <span>{desc}</span>
           </motion.div>
           <motion.div
-            className="description text-[#f6c443] text-[14px] sm:mt-10 mt-16 md:mt-10 font-bold sm:font-normal"
+            className="description text-[#f6c443] text-[14px] sm:mt-10 mt-16 md:mt-6 xl:mt-10 font-bold sm:font-normal"
             variants={item}
           >
             <span>{price}</span>

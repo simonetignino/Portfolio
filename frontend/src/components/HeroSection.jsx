@@ -154,7 +154,7 @@ export default function DeveloperHero() {
         </motion.div>
         
         <motion.div 
-          className="lg:w-1/2 mt-12 lg:mt-0"
+          className="lg:w-1/2 mt-12 lg:mt-0 w-80 sm:w-96"
           initial="hidden"
           animate="visible"
           variants={codeBlock}

@@ -85,7 +85,6 @@ export default function LeftSection() {
                 {[
                     { label: "Regione:", value: "Sicilia" },
                     { label: "Città:", value: "Pedara, CT" },
-                    { label: "Età:", value: "25" }
                 ].map((item, index) => (
                     <motion.div 
                         key={index}

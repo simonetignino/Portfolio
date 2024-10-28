@@ -35,12 +35,12 @@ export default function MainSection() {
           Servizi
         </motion.h2>
           <div className="cards-container grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 lg:gap-8">
-              <SimpleCard title={"Landing Page"} desc={"Pagina web progettata per guidare i visitatori verso una specifica azione, come un acquisto o una registrazione."} />
-              <SimpleCard title={"Blog"} desc={"Sito web o sezione di un sito dove vengono pubblicati articoli o post su argomenti specifici in modo regolare."} />
-              <SimpleCard title={"E-commerce"} desc={"Piattaforma online che consente la vendita di prodotti o servizi, con funzioni come carrello e pagamento."} />
-              <SimpleCard title={"Gestionali"} desc={"Software che automatizza e supporta le attività di gestione aziendale, come contabilità, inventario o risorse umane."} />
-              <SimpleCard title={"Web App"} desc={"Applicazione accessibile tramite browser che funziona su più dispositivi senza necessità di installazione."} />
-              <SimpleCard title={"Menù Digitale"} desc={"Menù online interattivo per ristoranti, visualizzabile su dispositivi mobili, che consente ordini e consultazione rapida."} />
+              <SimpleCard title={"Landing Page"} desc={"Pagina web progettata per guidare i visitatori verso una specifica azione, come un acquisto o una registrazione."} price={"500€"} />
+              <SimpleCard title={"Blog"} desc={"Sito web o sezione di un sito dove vengono pubblicati articoli o post su argomenti specifici in modo regolare."} price={"800€"} />
+              <SimpleCard title={"E-commerce"} desc={"Piattaforma online che consente la vendita di prodotti o servizi, con funzioni come carrello e pagamento." } price={"1500€"} />
+              <SimpleCard title={"Gestionali"} desc={"Software che automatizza e supporta le attività di gestione aziendale, come contabilità, inventario o risorse umane."} price={"1500€"} />
+              <SimpleCard title={"Menù Digitale"} desc={"Menù online interattivo per ristoranti, visualizzabile su dispositivi mobili, che consente ordini e consultazione rapida."} price={"1200€"}/>
+              <SimpleCard title={"Web App"} desc={"Applicazione accessibile tramite browser che funziona su più dispositivi senza necessità di installazione."} price={""}/>
           </div>
         </div>
       </div>

@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 
-export default function SimpleCard({ title, desc }) {
+export default function SimpleCard({ title, desc, price }) {
   // Definiamo le varianti di animazione simili a quelle usate in HeroSection
   const container = {
     hidden: { opacity: 0 },
@@ -44,6 +44,12 @@ export default function SimpleCard({ title, desc }) {
           variants={item}
         >
           <span>{desc}</span>
+        </motion.div>
+        <motion.div 
+          className="description text-[#f6c443] text-[14px] mt-4"
+          variants={item}
+        >
+          <span>{price}</span>
         </motion.div>
       </div>
     </motion.div>

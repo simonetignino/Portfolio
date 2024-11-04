@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import profiloImage from "../media/PROFILO.png"
 import Spinner from "./Spinner/Spinner"
+import InfoSection from './info/InfoSection';
 
 export default function LeftSection() {
     const containerVariants = {
@@ -138,6 +139,12 @@ export default function LeftSection() {
                     </motion.div>
                 ))}
             </motion.div>
+            <motion.div className='flex justify-center'>
+                <motion.div className='absolute bottom-2'>
+                    <InfoSection  />
+                </motion.div>
+            </motion.div>
+            
         </motion.div>
     )
 }

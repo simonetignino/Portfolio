@@ -39,7 +39,7 @@ export default function MainSection() {
               <SimpleCard title={"Blog"} desc={"Sito web o sezione di un sito dove vengono pubblicati articoli o post su argomenti specifici in modo regolare."} price={"800€"} />
               <SimpleCard title={"E-commerce"} desc={"Piattaforma online che consente la vendita di prodotti o servizi, con funzioni come carrello e pagamento." } price={"1500€"} />
               <SimpleCard title={"Menù Digitale"} desc={"Menù online interattivo per ristoranti, visualizzabile su dispositivi mobili, che consente ordini e consultazione rapida."} price={"1200€"}/>
-              <SimpleCard title={"Web App"} desc={"Applicazione accessibile tramite browser che funziona su più dispositivi senza necessità di installazione."} price={""}/>
+              <SimpleCard title={"Web App"} desc={"Applicazione accessibile tramite browser che funziona su più dispositivi senza necessità di installazione."} price={"preventivare"}/>
           </div>
         </div>
       </div>

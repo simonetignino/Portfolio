@@ -47,7 +47,7 @@ const SimpleCard = ({ title, desc, price }) => {
             className="description text-[#f6c443] text-[14px] sm:mt-10 mt-16 md:mt-6 xl:mt-10"
             variants={item}
           >
-            <span>{price}</span>
+            <span>Da {price}</span>
           </motion.div>
         </div>
       </div>

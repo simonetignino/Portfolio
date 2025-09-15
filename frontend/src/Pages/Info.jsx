@@ -6,7 +6,7 @@ export default function Info() {
     <>
       <div className="main-container flex flex-col w-screen">
         {/* SEZIONE CON IMMAGINE DEL PROFILO + NOME, COGNOME E PROFESSIONE */}
-        <div className="profile-section flex flex-col items-center justify-center">
+        <div className="profile-section flex flex-col items-center justify-center relative">
           <img
             className="img-profile rounded-full shadow-2xl w-44 h-44 object-cover mt-10 mb-5"
             src={profiloImage}

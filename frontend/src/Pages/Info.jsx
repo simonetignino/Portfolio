@@ -1,5 +1,5 @@
 import React from "react";
-import profiloImage from "../media/PROFILO.png";
+import profiloImage from "../media/PROFILO3.png";
 
 export default function Info() {
   return (

@@ -11,7 +11,7 @@ export default function Info() {
             className="img-profile rounded-full shadow-2xl w-44 h-44 object-cover mt-10 mb-5"
             src={profiloImage}
           ></img>
-          <a href="/contatto.vfc" className="absolute top-2 right-2">
+          <a href="/contatto.vcf" className="absolute top-2 right-2">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"

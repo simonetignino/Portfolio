@@ -8,17 +8,27 @@ export default function Info() {
         {/* SEZIONE CON IMMAGINE DEL PROFILO + NOME, COGNOME E PROFESSIONE */}
         <div className="profile-section flex flex-col items-center justify-center">
           <img
-            className="img-profile rounded-full shadow-2xl w-44 mt-10 mb-5"
+            className="img-profile rounded-full shadow-2xl w-44 h-44 object-cover mt-10 mb-5"
             src={profiloImage}
           ></img>
+          <a href="/contatto.vfc" className="absolute top-2 right-2">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="size-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M18 7.5v3m0 0v3m0-3h3m-3 0h-3m-2.25-4.125a3.375 3.375 0 1 1-6.75 0 3.375 3.375 0 0 1 6.75 0ZM3 19.235v-.11a6.375 6.375 0 0 1 12.75 0v.109A12.318 12.318 0 0 1 9.374 21c-2.331 0-4.512-.645-6.374-1.766Z"
+              />
+            </svg>
+          </a>
           <div className="username font-semibold">Simone Tignino</div>
           <div className="job font-extralight">Full stack Web developer</div>
-          {/* <a
-            href="/contatto.vfc"
-            className="rounded-3xl p-3 text-white bg-cyan-500 "
-          >
-            Salva Contatto
-          </a> */}
         </div>
         <div className="separatore flex flex-col items-center">
           <div className="border-b-2 border-gray-300 w-1/4 my-5"></div>

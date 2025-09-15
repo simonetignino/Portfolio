@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import profiloImage from "../media/PROFILO.png";
 import Spinner from "./Spinner/Spinner";
-import InfoSection from "../Informazioni/InfoSection.jsx";
+import InfoSection from "./Informazioni/InfoSection.jsx";
 
 export default function LeftSection() {
   const containerVariants = {
